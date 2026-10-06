@@ -19,3 +19,14 @@ body {
     font-size: 1.75rem;
   }
 }
+
+#userAvatar {
+  display: block;
+}
+
+#scheduleChart {
+  max-width: 480px;
+  width: 100%;
+  display: block;
+  margin-top: .75rem;
+}

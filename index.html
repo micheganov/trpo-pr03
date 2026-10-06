@@ -18,10 +18,15 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item"><a class="nav-link" href="#dashboard">Показатели</a></li>
         <li class="nav-item"><a class="nav-link" href="#actions">Действия</a></li>
         <li class="nav-item"><a class="nav-link" href="#schedule">Расписание</a></li>
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+          <img src="assets/avatar.svg" alt="Аватар пользователя"
+              class="rounded-circle border border-2 border-light"
+              width="36" height="36" id="userAvatar">
+        </li>
       </ul>
     </div>
   </div>
@@ -69,7 +74,9 @@
         <div id="sched1" class="accordion-collapse collapse show"
              data-bs-parent="#scheduleAccordion">
           <div class="accordion-body" id="scheduleBody">
-            Проверка лабораторных работ и подготовка отчётов.
+            <p>Проверка лабораторных работ и подготовка отчётов.</p>
+            <img src="assets/chart.svg" alt="График выполнения лабораторных работ"
+                class="img-fluid rounded border" id="scheduleChart">
           </div>
         </div>
       </div>
